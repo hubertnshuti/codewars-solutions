@@ -1,3 +1,3 @@
-export function isPair(arr: any[]): arr is [any, any] {
+export function isPair<T>(arr: T[]): arr is [T, T] {
   return arr.length === 2;
 }
