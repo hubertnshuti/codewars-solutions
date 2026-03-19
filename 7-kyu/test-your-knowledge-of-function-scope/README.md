@@ -1,0 +1,1 @@
+<h2><a href=https://www.codewars.com/kata/56d344c7fd3a52566700124b/train/typescript target="_blank">Test Your Knowledge Of Function Scope</a></h2><h3>7 kyu</h3><p>Write a function that adds from two invocations. </p><p>All inputs will be integers.</p><pre><code>add(3)(4)  // 7add(12)(20) // 32</code></pre>
