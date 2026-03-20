@@ -1,0 +1,4 @@
+long long calc(const std::vector<int> &x) {
+    int mn = *std::min_element(x.begin(), x.end());
+    return (long long)mn * x.size();
+}
