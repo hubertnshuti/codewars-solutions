@@ -1,3 +1,2 @@
-function chain(input, fs) {
-  return fs.reduce((acc, fn) => fn(acc), input)
-}
+const chain = (input, functions) =>
+  functions.reduce((result, fn) => fn(result), input)
